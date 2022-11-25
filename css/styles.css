@@ -279,7 +279,6 @@ body {
 }
 .portfolio-lists {
   flex-wrap: wrap;
-  width: calc((100% - 60) / 3);
 }
 .portfolio-list:not(:nth-child(3n)) {
   margin-right: var(--margin30px);
@@ -289,6 +288,7 @@ body {
 }
 .portfolio-list {
   background-color: var(--carts-backgroun-color);
+  width: calc((100% - 60px) / 3);
 }
 .name-project {
   padding: 20px 24px;
