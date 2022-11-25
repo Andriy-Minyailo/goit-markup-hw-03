@@ -101,6 +101,7 @@ body {
 }
 .link-contact {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .link-contact:hover,
@@ -288,10 +289,12 @@ body {
 }
 .portfolio-list {
   background-color: var(--carts-backgroun-color);
-  border-bottom: 1px solid #eeeeee;
 }
 .name-project {
   padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 .portfolio-titel {
   margin-bottom: 4px;
